@@ -75,7 +75,7 @@ const config = {
               },
             ],
           },
-          {
+          /*{
             title: 'Community',
             items: [
               {
@@ -91,17 +91,17 @@ const config = {
                 href: 'https://twitter.com/docusaurus',
               },
             ],
-          },
+          },*/
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Newsroom',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/moonauth/developers',
               },
             ],
           },
