@@ -23,6 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          path: 'docs',
           // Please change this to your repo.
           editUrl: 'https://github.com/moonauth/developers/edit/main/website/',
         },
@@ -38,6 +39,7 @@ const config = {
       }),
     ],
   ],
+  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -56,15 +58,20 @@ const config = {
             label: 'Documentation',
           },
           {to: '/blog', label: 'Newsroom', position: 'left'},
-          {
+          /*{
             href: 'https://github.com/moonauth/developers',
             label: 'GitHub',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'Moonauth Logo',
+          src: 'https://i.imgur.com/PpwN3tw.png',
+          href: 'https://moonauth.com',
+        },
         links: [
           {
             title: 'Docs',
@@ -99,10 +106,10 @@ const config = {
                 label: 'Newsroom',
                 to: '/blog',
               },
-              {
+              /*{
                 label: 'GitHub',
                 href: 'https://github.com/moonauth/developers',
-              },
+              },*/
             ],
           },
         ],
